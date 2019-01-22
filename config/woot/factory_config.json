@@ -7,10 +7,6 @@
         {
           "tag": "factory_tier",
           "value": 3
-        },
-        {
-          "tag": "spawn_ticks",
-          "value": 1000
         }
       ]
     },
@@ -24,10 +20,6 @@
         {
           "tag": "factory_tier",
           "value": 3
-        },
-        {
-          "tag": "spawn_ticks",
-          "value": 1000
         }
       ]
     },
@@ -46,10 +38,6 @@
         {
           "tag": "factory_tier",
           "value": 3
-        },
-        {
-          "tag": "spawn_ticks",
-          "value": 1000
         }
       ]
     },
@@ -70,7 +58,7 @@
         },
         {
           "tag": "spawn_ticks",
-          "value": 6000
+          "value": 12000
         },
         {
           "tag": "mass_1_param",
@@ -78,44 +66,11 @@
         },
         {
           "tag": "mass_2_param",
-          "value": 2
-        },
-        {
-          "tag": "mass_3_param",
           "value": 3
         },
         {
-          "tag": "mass_fx",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "mobName": "minecraft:wither",
-      "configs": [
-        {
-          "tag": "factory_tier",
+          "tag": "mass_3_param",
           "value": 4
-        },
-        {
-          "tag": "spawn_units",
-          "value": 500
-        },
-        {
-          "tag": "spawn_ticks",
-          "value": 1200
-        },
-        {
-          "tag": "mass_1_param",
-          "value": 2
-        },
-        {
-          "tag": "mass_2_param",
-          "value": 2
-        },
-        {
-          "tag": "mass_3_param",
-          "value": 3
         },
         {
           "tag": "mass_fx",
@@ -160,54 +115,36 @@
         }
       ]
     },
-	{
-      "mobName": "thermalfoundation:basalz",
-      "configs": [
-        {
-          "tag": "spawn_units",
-          "value": 20
-        },
-        {
-          "tag": "factory_tier",
-          "value": 3
-        },
-        {
-          "tag": "spawn_ticks",
-          "value": 1000
-        }
-      ]
-    },
     {
-      "mobName": "thermalfoundation:blitz",
+      "mobName": "minecraft:wither",
       "configs": [
         {
-          "tag": "spawn_units",
-          "value": 20
+          "tag": "factory_tier",
+          "value": 4
         },
         {
-          "tag": "factory_tier",
-          "value": 3
+          "tag": "spawn_units",
+          "value": 500
         },
         {
           "tag": "spawn_ticks",
-          "value": 1000
-        }
-      ]
-    },
-    {
-      "mobName": "thermalfoundation:blizz",
-      "configs": [
-        {
-          "tag": "spawn_units",
-          "value": 40
+          "value": 1200
         },
         {
-          "tag": "factory_tier",
+          "tag": "mass_1_param",
+          "value": 2
+        },
+        {
+          "tag": "mass_2_param",
           "value": 3
         },
         {
-          "tag": "spawn_ticks",
-          "value": 1000
+          "tag": "mass_3_param",
+          "value": 4
+        },
+        {
+          "tag": "mass_fx",
+          "value": 2
         }
       ]
     },
@@ -217,10 +154,6 @@
         {
           "tag": "factory_tier",
           "value": 3
-        },
-        {
-          "tag": "spawn_ticks",
-          "value": 1000
         }
       ]
     },
@@ -283,7 +216,12 @@
     "twilightforest:giant_miner",
     "twilightforest:armored_giant"
   ],
-  "entitywhitelist": [  ],
-  "itemmodblacklist": [  ],
-  "itemblacklist": [  ]
+  "entitywhitelist": [
+  ],
+  "itemmodblacklist": [
+  ],
+  "itemblacklist": [
+
+  ]
 }
+

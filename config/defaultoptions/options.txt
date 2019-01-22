@@ -2,14 +2,14 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:0.0
+gamma:1.0
 saturation:0.0
 renderDistance:10
-guiScale:2
-particles:0
-bobView:true
+guiScale:0
+particles:1
+bobView:false
 anaglyph3d:false
-maxFps:260
+maxFps:120
 fboEnable:true
 difficulty:2
 fancyGraphics:true
@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:false
+enableVsync:true
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -45,7 +45,7 @@ reducedDebugInfo:false
 useNativeTransport:true
 entityShadows:true
 mainHand:right
-attackIndicator:1
+attackIndicator:2
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
@@ -53,7 +53,7 @@ autoJump:false
 narrator:0
 tutorialStep:none
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
