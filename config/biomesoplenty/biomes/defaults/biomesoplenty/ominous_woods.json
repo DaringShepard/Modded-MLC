@@ -2,12 +2,12 @@
   "enableRain": true,
   "canGenerateRivers": false,
   "rainfall": 0.6,
-  "skyColor": 3420989,
+  "skyColor": 3687520,
   "guiColour": 4145489,
-  "fogDensity": 0.3,
+  "fogDensity": 0.175,
   "hasBiomeEssence": true,
   "variationBelow": 5.0,
-  "variationAbove": 15.0,
+  "variationAbove": 10.0,
   "waterColor": 1973030,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
@@ -23,7 +23,7 @@
       "variant": "loamy"
     }
   },
-  "averageHeight": 68.0,
+  "averageHeight": 66.0,
   "topBlock": {
     "block": "biomesoplenty:grass",
     "properties": {
@@ -31,7 +31,7 @@
       "variant": "loamy"
     }
   },
-  "fogColor": 3420989,
+  "fogColor": 3882316,
   "temperature": 0.6,
   "canGenerateVillages": false,
   "canSpawnInBiome": false,
@@ -40,7 +40,7 @@
     "cattail": {},
     "oases": {},
     "trees": {
-      "amountPerChunk": 12.0,
+      "amountPerChunk": 11.0,
       "enable": true,
       "generators": {}
     },
@@ -74,7 +74,7 @@
       "enable": true
     },
     "flowers": {
-      "amountPerChunk": 0.7,
+      "amountPerChunk": 0.4,
       "enable": true,
       "generators": {}
     },
@@ -122,7 +122,7 @@
     "ice_pools": {},
     "rafflesia": {},
     "grass": {
-      "amountPerChunk": 1.2,
+      "amountPerChunk": 3.0,
       "enable": true,
       "generators": {}
     },
@@ -139,6 +139,25 @@
     "double_fern": {},
     "snow_splatter": {},
     "quicksand": {},
+    "bramble": {
+      "with": {
+        "block": "biomesoplenty:bramble_plant",
+        "properties": {
+          "down": "false",
+          "east": "false",
+          "north": "false",
+          "south": "false",
+          "up": "false",
+          "west": "false"
+        }
+      },
+      "generationAttempts": 128,
+      "amountPerChunk": 0.75,
+      "maxHeight": 4,
+      "enable": true,
+      "minLength": 5,
+      "maxLength": 15
+    },
     "amber": {},
     "cobblestone_splatter": {},
     "malachite": {
@@ -159,7 +178,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.8,
+      "amountPerChunk": 0.3,
       "enable": true
     },
     "dead_leaf_piles": {
@@ -170,7 +189,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.2,
+      "amountPerChunk": 0.3,
       "enable": true
     },
     "shrubs": {},

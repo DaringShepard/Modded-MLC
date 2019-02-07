@@ -140,7 +140,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 2.0,
+      "amountPerChunk": 0.5,
       "enable": true
     },
     "stone_patches": {},
@@ -218,7 +218,7 @@
         }
       },
       "maxRadius": 8,
-      "amountPerChunk": 6.0,
+      "amountPerChunk": 10.0,
       "enable": true
     },
     "river_cane": {},

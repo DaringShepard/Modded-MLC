@@ -7,7 +7,7 @@
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
   "variationBelow": 5.0,
-  "variationAbove": 2.0,
+  "variationAbove": 3.0,
   "waterColor": 16777215,
   "seaFloorBlock": {
     "block": "biomesoplenty:mud",
@@ -122,7 +122,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 6.0,
+      "amountPerChunk": 0.1,
       "enable": true
     },
     "stone_patches": {},
@@ -171,17 +171,7 @@
     "sacred_oak_trees": {},
     "toadstools": {},
     "sand": {},
-    "mud": {
-      "with": {
-        "block": "biomesoplenty:mud",
-        "properties": {
-          "variant": "mud"
-        }
-      },
-      "maxRadius": 7,
-      "amountPerChunk": 1.0,
-      "enable": true
-    },
+    "mud": {},
     "river_cane": {},
     "amethyst": {},
     "kelp_tall": {},
@@ -197,7 +187,7 @@
           "level": "0"
         }
       },
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 0.5,
       "enable": true,
       "frozenLiquid": {
         "block": "minecraft:ice",

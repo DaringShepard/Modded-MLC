@@ -6,6 +6,7 @@ print("Initializing 'recipe_changes.zs'...");
 	#Remove ChunkLoaders (use FTBU to manage chunkloading)
 recipes.remove(<ic2:te:82>);
 recipes.remove(<opencomputers:upgrade:4>);
+recipes.remove(<mekanism:anchorupgrade>);
 
 	#Atempt to fix TiC grout shapless recipe
 recipes.addShapeless(<tconstruct:soil> * 2, [<minecraft:sand>, <minecraft:gravel>, <minecraft:clay_ball>]);
@@ -264,5 +265,7 @@ recipes.remove(<tconstruct:throwball:1>);
 <tconstruct:throwball:1>.addTooltip(format.red("Disabled due to exploits!"));
 recipes.remove(<appliedenergistics2:tiny_tnt>);
 <appliedenergistics2:tiny_tnt>.addTooltip(format.red("Disabled due to exploits!"));
+recipes.remove(<mekanism:cardboardbox>);
+<mekanism:cardboardbox>.addTooltip(format.red("Disabled due to exploits!"));
 
 print("Initialized 'recipe_changes.zs'");

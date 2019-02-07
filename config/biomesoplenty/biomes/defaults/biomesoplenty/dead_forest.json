@@ -41,7 +41,7 @@
     "cattail": {},
     "oases": {},
     "trees": {
-      "amountPerChunk": 3.0,
+      "amountPerChunk": 2.5,
       "enable": true,
       "generators": {}
     },

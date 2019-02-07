@@ -7,8 +7,8 @@
   "guiColour": 4044093,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
-  "variationBelow": 4.0,
-  "variationAbove": 12.0,
+  "variationBelow": 5.0,
+  "variationAbove": 5.0,
   "waterColor": 16777215,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
@@ -32,14 +32,18 @@
     }
   },
   "fogColor": -1,
-  "temperature": 0.6,
+  "temperature": 0.7,
   "canGenerateVillages": false,
   "canSpawnInBiome": true,
   "enableSnow": false,
   "generators": {
     "cattail": {},
     "oases": {},
-    "trees": {},
+    "trees": {
+      "amountPerChunk": 3.0,
+      "enable": true,
+      "generators": {}
+    },
     "poison_ivy": {},
     "tanzanite": {},
     "big_brown_mushroom": {},
@@ -60,7 +64,7 @@
       "enable": true
     },
     "flowers": {
-      "amountPerChunk": 45.0,
+      "amountPerChunk": 17.5,
       "enable": true,
       "generators": {}
     },
@@ -85,7 +89,7 @@
     "ice_pools": {},
     "rafflesia": {},
     "grass": {
-      "amountPerChunk": 25.0,
+      "amountPerChunk": 20.0,
       "enable": true,
       "generators": {}
     },
