@@ -6,6 +6,8 @@
 //When there is a mistake inside of the File the Tool will throw an error and not execute the File until the mistake is being fixed.
 //It will also tell you exactly which line has a mistake and what type of mistake it is.
 //Also if the file is called onWorldCreation.txt it will be automatically executed as soon a world gets created.
+//Also if the file is called onDimensionCreation.txt it will be automatically executed every time a new dimension is loaded. It keeps also track of which one it already ran
+//Also make sure for the onDimensionCreation.txt to use a ~ for the dimension parameter
 //That file will be also executed as the Server with full admin rights.
 //Now to the Valid commands:
 //startradius, startarea, startextention, startregion, startmassradius.

@@ -247,14 +247,14 @@ recipes.remove(<appliedenergistics2:matter_cannon>);
 recipes.remove(<enderio:block_weather_obelisk>);
 
 	#Remove Jurassicraft Stuff
-recipes.remove(<jurassicraft:vehicle_item>);
-recipes.remove(<jurassicraft:vehicle_item:1>);
-recipes.remove(<jurassicraft:vehicle_item:2>);
-recipes.remove(<jurassicraft:unfinished_car>);
-recipes.remove(<jurassicraft:car_windscreen>);
-recipes.remove(<jurassicraft:car_seats>);
-recipes.remove(<jurassicraft:car_chassis>);
-recipes.remove(<jurassicraft:car_tire>);
+#recipes.remove(<jurassicraft:vehicle_item>);
+#recipes.remove(<jurassicraft:vehicle_item:1>);
+#recipes.remove(<jurassicraft:vehicle_item:2>);
+#recipes.remove(<jurassicraft:unfinished_car>);
+#recipes.remove(<jurassicraft:car_windscreen>);
+#recipes.remove(<jurassicraft:car_seats>);
+#recipes.remove(<jurassicraft:car_chassis>);
+#recipes.remove(<jurassicraft:car_tire>);
 
 	#Add Thaumcraft Sapling Recipe
 recipes.addShaped(<thaumcraft:sapling_greatwood>, [[<minecraft:sapling>, <thaumcraft:quicksilver>, <minecraft:sapling>], [<thaumcraft:quicksilver>, <minecraft:sapling>, <thaumcraft:quicksilver>], [<minecraft:sapling>, <thaumcraft:quicksilver>, <minecraft:sapling>]]);

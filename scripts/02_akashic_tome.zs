@@ -206,6 +206,15 @@ var fullTome = <akashictome:tome> .withTag(
 					"akashictome:definedMod": "xnet"
 				},
 				Damage: 0 as short
+			},
+			
+			ebwizardry: {
+				id: "ebwizardry:wizard_handbook",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "ebwizardry"
+				},
+				Damage: 0 as short
 			}
 		}
 	}
